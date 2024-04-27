@@ -1,9 +1,9 @@
 from tkinter import * #for creating a GUI platform
-import mysql.connector 
+import mysql.connector
+from tkinter import messagebox #to show message box
 from PIL import ImageTk,Image #to display images on the tkinter window
 import random
 import pymysql
-
 
 ######################CONNECTING SQL AND PYTHON#############################################
 mydb=mysql.connector.connect(host="localhost",user="root",passwd="gibberish@1234")
